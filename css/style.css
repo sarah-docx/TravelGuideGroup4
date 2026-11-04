@@ -1,3 +1,10 @@
 body{
     background-color: bisque;
 }
+h3.pageLink{
+    border-style: outset;
+    color: black;
+}
+.contact {
+  background-color:whitesmoke;
+}
