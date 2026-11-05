@@ -1,10 +1,25 @@
 body{
-    background-color: bisque;
+    background-color: white;
 }
-h3.pageLink{
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.pageLink{
     border-style: outset;
     color: black;
 }
 .contact {
   background-color:whitesmoke;
+}
+table,th{
+  border:1px solid black;
+  border-collapse: collapse;
+}
+.mainimg{
+    width:400px;
+    height:350px
 }
