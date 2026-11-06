@@ -1,25 +1,25 @@
 body{
     background-color: white;
 }
-header {
+header {/* for the big Japan header in Main.html */
   background-color: #666;
   padding: 20px;
   text-align: center;
   font-size: 35px;
   color: white;
 }
-.pageLink{
-    border-style: outset;
-    color: black;
-}
-.contact {
-  background-color:whitesmoke;
+h2{
+  text-align:center;
 }
 table,th{
   border:1px solid black;
   border-collapse: collapse;
 }
-.mainimg{
+.pageLink{/* this is for the 3 buttons to each webpage in Main.html */
+    border-style: outset;
+    color: black;
+}
+.mainimg{/* for the placeholder 3 square images in Main.html */
     width:400px;
     height:350px
 }
