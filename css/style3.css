@@ -1,0 +1,12 @@
+/* for the images on page3.html */
+.p3img{
+    width:200px;
+    height:175px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      
+}
