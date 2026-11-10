@@ -1,13 +1,6 @@
 body{
     background-color: white;
 }
-header {/* for the big Japan header in Main.html */
-  background-color: #666;
-  padding: 20px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
 h2{
   text-align:center;
 }
@@ -15,11 +8,36 @@ table,th{
   border:1px solid black;
   border-collapse: collapse;
 }
-.pageLink{/* this is for the 3 buttons to each webpage in Main.html */
+
+/* for the big Japan header in Main.html */
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* this is for the 3 buttons to each webpage in Main.html */
+.pageLink{
     border-style: outset;
     color: black;
 }
-.mainimg{/* for the placeholder 3 square images in Main.html */
+
+/* for the placeholder 3 square images in Main.html */
+.mainimg{
     width:400px;
     height:350px
+}
+
+/*japan map style on main page */
+map:hover{
+  background-color: yellow;
+}
+div.map {
+  display: none;
+  grid-area: content;
+}
+span:hover + div.map {
+  display: block;
 }
