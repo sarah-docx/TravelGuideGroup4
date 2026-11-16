@@ -54,6 +54,7 @@ li a:hover{
 .left{
   flex: 60%;
   text-align: justify;
+  background-color: bisque;
 }
 .right{
   flex: 40%;
@@ -63,6 +64,7 @@ li a:hover{
 }
 .fifty{
   flex: 50%;
+  border: 1px solid black;
 }
 /* this is for the 3 buttons to each webpage in Main.html */
 .pageLink{
