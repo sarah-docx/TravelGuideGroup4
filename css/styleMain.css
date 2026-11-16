@@ -1,19 +1,14 @@
 body{
     background-color: white;
 }
-h2{
-  text-align: center;
-}
-h3{
-  text-align: center;
-}
-p{
+h1, h2, h3, p{
   text-align: center;
 }
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
 
 /* for the big Japan header in Main.html */
 header {
@@ -23,6 +18,29 @@ header {
   font-size: 35px;
   color: white;
 }
+/* contents buttons below heading */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+li {
+  float: left;
+}
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: darkgray;
+}
+/*    */
+
 .introPara {
   display: grid;
 }
@@ -34,12 +52,10 @@ header {
   display: flex;
 }
 .left{
-  background-color:lightgoldenrodyellow;
   flex: 60%;
   text-align: justify;
 }
 .right{
-  background-color: palevioletred;
   flex: 40%;
 } 
 .thirds{
