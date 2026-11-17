@@ -11,7 +11,7 @@ table, th, td {
 }
 
 
-/* for the big Japan header in Main.html */
+/* for the big Japan header */
 header {
   background-color: #666;
   padding: 20px;
@@ -48,7 +48,7 @@ li a:hover{
 .intro{
   grid-column: 1 / span 2;
 }
-/* trying to layout paragraphs and images */
+/* trying to layout paragraphs and images, flexdiv splits page section into sub-divs, using percentages */
 .flexDiv{
   display: flex;
   /* flex-wrap: wrap;  should wrap to accomodate smaller screens - ran into issue, 
@@ -76,29 +76,23 @@ li a:hover{
 .seventy{
   flex: 70%;
 }
-/* this is for the 3 buttons to each webpage in Main.html */
+/* this is for the 3 buttons to each webpage */
 .pageLink{
     border-style: outset;
     color: black;
 }
 
-/* for the placeholder 3 square images in Main.html */
+/* for the placeholder 3 square images */
 .mainimg{
     width:400px;
     height:350px
 }
 
-/*japan map style on main page */
-map:hover{
-  background-color: yellow;
-}
+/*japan map style */
 div.map {
   display: none;
   grid-area: content;
 }
 span:hover + div.map {
   display: block;
-}
-span:hover + div.mapPlaceholder{
-  display: none;
 }
