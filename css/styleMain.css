@@ -58,13 +58,12 @@ li a:hover{
 .left{
   flex: 60%;
   text-align: justify;
-  background-color: bisque;
 }
 .right{
   flex: 40%;
 } 
-.thirds{
-  flex: 33%;
+.quarter{
+  flex: 25%;
 }
 .fifty{
   flex: 50%;
@@ -87,11 +86,20 @@ li a:hover{
     width:400px;
     height:350px
 }
+table{
+  width: 100%;
+}
+td{
+  padding: 10px;
+  
+}
+
 
 /*japan map style */
 div.map {
   display: none;
   grid-area: content;
+  border-style: outset;
 }
 span:hover + div.map {
   display: block;
