@@ -4,12 +4,16 @@ body{
 }
 h1, h2, h3, p{
   text-align: center;
+  font-family: Tahoma, Verdana, sans-serif; /* 3 fonts in case browser doesnt support one */
+}
+h1{
+  color: #2B2D2E;
 }
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  font-family: Tahoma, Verdana, sans-serif;
 }
-
 
 /* for the big Japan header */
 header {
@@ -29,6 +33,7 @@ ul {
 }
 li {
   float: left;
+  font-family: Tahoma, Verdana, sans-serif;
 }
 li a{
   display: inline-block;
