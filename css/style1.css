@@ -1,0 +1,15 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/90/1a/45/901a45d1c71c11af99df96c171fbac71.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+    width: max;
+    height: auto;
+
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
