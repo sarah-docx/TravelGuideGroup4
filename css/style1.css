@@ -12,4 +12,43 @@ h1 {
     color: white;
     font-size: 50px;
     text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+p1 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2000px;
+}
+
+.banner-container {
+  background-image: url('https://i.pinimg.com/736x/90/1a/45/901a45d1c71c11af99df96c171fbac71.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  padding-top: 40%; /* 2.5:1 aspect ratio */
+  color: white;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 }
