@@ -97,3 +97,12 @@ th, td {
 table{
   width: 100%;
 }
+
+dl, dt, dd {
+
+}
+dt{
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
