@@ -1,20 +1,146 @@
 /* for the images on page3.html // Cians page */
 
-.p3img {
-        display: inline-block;
-        width: 45%;
-        max-width: 300px;
-        max-width: 300px;
-        aspect-ratio: 1/1;
-        object-fit: cover;
-        border: 1px solid #888;
-        margin: 0 8px 16px 0; 
-        vertical-align: top;
-}
-
 .img-row {
     display: flex;
     justify-content: center;
-    gap: 12px; 
-    margin-bottom: 16px 0; 
+    gap: 12px;
+    margin: 0 0 16px;
+}
+
+.p3img {
+    width: 45%;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 1px solid #888;
+}
+
+.p3img2,
+.p3img3 {
+    display: block;
+    width: 60%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 20px;
+    border: 1px solid #888;
+}
+
+.bottom-button {
+    text-align: center;
+    margin: 20px;
+}
+
+.bottom-button button {
+    padding: 10px 24px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+body {
+    background-color: #9da7b3;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+    width: max;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 15;
+}
+
+.p1 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2000px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.banner-container {
+  background-image: url('https://i.pinimg.com/736x/90/1a/45/901a45d1c71c11af99df96c171fbac71.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  padding-top: 40%; /* 2.5:1 aspect ratio */
+  color: white;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5C544E;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #4F4944;
+}
+
+.section {
+  padding: 20px;
+  margin: 20px;
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+table{
+  width: 100%;
+}
+
+dl, dt, dd {
+
+}
+dt{
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
