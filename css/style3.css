@@ -7,6 +7,15 @@
     margin: 0 0 16px;
 }
 
+.banner-container {
+  background-image: url('https://www.friend-in-japan.com/wp-content/uploads/2023/04/Chubu-1024x576.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  padding-top: 55%; /* aspect ratio */
+  color: white;
+}
 .p3img {
     width: 45%;
     max-width: 300px;
@@ -72,19 +81,10 @@ h2 {
     margin: 20px;
 }
 
-.banner-container {
-  background-image: url('https://i.pinimg.com/736x/90/1a/45/901a45d1c71c11af99df96c171fbac71.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  width: 100%;
-  padding-top: 40%; /* 2.5:1 aspect ratio */
-  color: white;
-}
 
 .banner-content {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -136,11 +136,8 @@ table{
   width: 100%;
 }
 
-dl, dt, dd {
-
-}
 dt{
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 10px;
-}
+}   
