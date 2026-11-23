@@ -88,11 +88,12 @@ hr {
 }
 
 table, th, td {
-  border: 1px solid white;
+  border: 1px solid black;
   border-collapse: collapse;
 }
 th, td {
-  background-color: #96D4D4;
+  background-color: #C6C2B6;
+  padding: 5px;
 }
 table{
   width: 100%;
@@ -105,4 +106,22 @@ dt{
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.hotels{
+  width:100%;
+  height:auto;
+}
+
+.table2{
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.th2 {
+  width: 33.33%;
 }
