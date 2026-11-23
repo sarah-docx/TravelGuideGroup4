@@ -1,37 +1,37 @@
 body {
-    background-color: #9da7b3;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: scroll;
-    width: max;
-    height: auto;
-    margin: 0;
-    padding: 0;
+  background-color: #9da7b3;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+  width: max;
+  height: auto;
+  margin: 0;
+  padding: 0;
 
 }
 
 h1 {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 100px;
-    padding-top: 50px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
 
 h2 {
-    color: black;
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 15;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 15;
 }
 
 .p1 {
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 2000px;
-    padding: 10px;
-    margin: 20px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 2000px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .banner-container {
@@ -99,9 +99,6 @@ table{
   width: 100%;
 }
 
-dl, dt, dd {
-
-}
 dt{
   font-weight: bold;
   padding-top: 20px;
