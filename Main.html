@@ -47,31 +47,15 @@
         </div>
 
         <hr id="P1">
-        <!-- Video and audio element-->
-        <video autoplay loop id="TravelVideo">
-            <source src="./video/JapanTravelVideo.mp4" type="video/mp4">
-        </video>
-        <div class="content">
-        <h1>An Intro To Japan</h1>
-        <p>Japan is an island nation, made up of four main islands: 
-            Hokkaido, Honshu, Shikoku, and Kyushu, as well as many thousands of smaller islands.</p>
-        <!-- Use a button to pause/play the video with JavaScript -->
-         <button id="videoButton" onclick="myFunction()">Pause</button>
-         <script>
-            var video = document.getElementById("TravelVideo");
-            var btn = document.getElementById("videoButton");
 
-            function myFunction() {
-                if (video.paused) {
-                    video.play();
-                    btn.innerHTML = "Pause";
-                } else {
-                    video.pause();
-                    btn.innerHTML = "Play";
-                }
-            }
-        </script>
+        <!-- Video and audio element-->
+        <div id="mainVidDiv">
+            <video controls autoplay muted loop id="TravelVideo">
+                <source src="./video/JapanTravelVideo.mp4" type="video/mp4">
+            </video>
+         
         </div>
+        
 
         
         <hr>
@@ -111,19 +95,26 @@
                     <span><area title="Chubu" href="page3.html" coords="330,258,243,325,264,377,300,379,318,361,297,324,326,291" shape="poly"></span>
                     <div class="map">
                         <h2>Chubu</h2> 
-                        <p>Chubu is famous for its mountain ranges and blah blah blah</p>
+                        <p>The Chubu Region (literally "central part") consists of nine prefectures 
+                            and is located in the center of Japan's largest island Honshu. It it the site of many of Japan's 
+                            tallest mountains, inlcuding Mount Fuji and the Japan Alps.</p>
                     </div>
 
                     <span><area title="Kanto" href="Page2.html" coords="359,307,319,306,305,324,328,359,343,370,364,343" shape="poly"></span>
                     <div class="map">
                         <h2>Kanto</h2>
-                        <p>Some Kanto information blah blah</p>
+                        <p>The Kanto Region contains Japan's largest plain and is very densely populated. The large metropolises 
+                            of Tokyo and Yokohama are located in the Kanto Region which consists of seven prefectures.</p>
+                        <p>Kanto's culinary options are as varied as the landscape—restaurants serving cuisine from 
+                            every corner of the globe abound at every price point.</p>
                     </div>
 
                     <span><area title="Chūgoku" href="Page1.html" coords="192,354,145,356,96,398,132,403,189,381" shape="poly"></span>
                     <div class="map">
                         <h2>Chūgoku</h2>
-                        <p>Some Chūgoku information + images and such</p>
+                        <p>The Chugoku Region makes up the western part of Japan's main island Honshu. It is commonly subdivided 
+                            into the heavily urbanized and industrialized Sanyo Region along the Seto Inland Sea coast and the much 
+                            more rural Sanin Region along the Sea of Japan coast</p>
                     </div>
                     <!-- these area maps dont have links, just info-->
                     <span><area coords="458,75,369,21,335,129,413,129" shape="poly"></span>
@@ -143,19 +134,33 @@
                     </div>
                     <span><area coords="243,362,196,351,195,379,226,421,261,391" shape="poly"></span>
                     <div class="map">
-                        <h2>Kinki</h2>   
+                        <h2>Kinki</h2> 
+                        <p>The Kinki region, also known as the Kansai region, is home to two of Japan's most exciting cities
+                             - Osaka and Kyoto - as well as a great deal of history, nature and spirituality. Reduced to little 
+                             more than rubble at the end of World War Two, Osaka has risen once again to be one of the world's 
+                             economic wonders, with a staggering output.</p>  
                     </div>
                     <span><area coords="187,394,135,419,149,444,200,412" shape="poly"></span>
                     <div class="map">
-                        <h2>Shikoku</h2>   
+                        <h2>Shikoku</h2> 
+                        <p>Shikoku is the smallest of the four main islands of Japan. It is 225 kilometres long 
+                            and between 50 and 150 kilometres wide. It has a population of 3.4 million, the least 
+                            of Japan's four main islands</p>  
                     </div>
                     <span><area coords="91,403,41,435,80,522,113,467,125,432" shape="poly"></span>
                     <div class="map">
-                        <h2>Kyushu</h2>   
+                        <h2>Kyushu</h2> 
+                        <p>Kyushu is a land full of energy, from its vibrant people to its famous volcanoes. Close to the rest 
+                            of Asia and easily accessible from Tokyo, Kyushu has welcomed new ideas and cultures for over a thousand 
+                            years. Experience the dynamic landscapes, relax in the many hot springs, and enjoy the warmth of genuine hospitality.</p>  
                     </div>
                     <span><area coords="284,429,487,556" shape="rect"></span>
                     <div class="map">
-                        <h2>Okinawa</h2>    
+                        <h2>Okinawa</h2> 
+                        <p>Okinawa is a chain of islands with its own history as an independent kingdom and a distinctly 
+                            subtropical climate, as well as the birthplace of karate.</p>   
+                        <p>Relax on white sand beaches, swim in clear blue ocean waters and spot Whale sharks and the 
+                            fascinating, diverse sea life at Okinawa Churaumi Aquarium</p>
                     </div>
                     
                 </map>
