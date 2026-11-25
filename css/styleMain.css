@@ -97,13 +97,13 @@ li a:hover{
 .seventy{
   flex: 70%;
 }
+
 /* this is for the 3 buttons to each webpage */
 .pageLink{
     color: black;
     font-family: Tahoma, Verdana, sans-serif;
 }
-
-/* for the placeholder 3 square images */
+/* for the 3 square images */
 .mainimg{
     width:100%;
 
