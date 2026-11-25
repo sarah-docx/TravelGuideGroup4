@@ -88,6 +88,9 @@ li a:hover{
 .thirty{
   flex: 30%;
 }
+.thirds{
+  flex: 33%;
+}
 .seventy{
   flex: 70%;
 }
