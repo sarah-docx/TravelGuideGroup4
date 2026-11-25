@@ -53,8 +53,9 @@ li a:hover{
 #TravelVideo{
   right: 0;
   bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  width: 100%; 
+  min-height:1000;
+  
 }
 
 /* */
@@ -90,20 +91,22 @@ li a:hover{
 }
 .thirds{
   flex: 33%;
+  border-left: 1px solid black;
+
 }
 .seventy{
   flex: 70%;
 }
+
 /* this is for the 3 buttons to each webpage */
 .pageLink{
-    border-style: outset;
     color: black;
+    font-family: Tahoma, Verdana, sans-serif;
 }
-
-/* for the placeholder 3 square images */
+/* for the 3 square images */
 .mainimg{
-    width:400px;
-    height:350px
+    width:100%;
+
 }
 table{
   width: 100%;
