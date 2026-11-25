@@ -1,5 +1,13 @@
 /* for the images on page3.html // Cians page */
+/* Cian Portley - student id: 26424932. this is my work. */
 
+#p3img {
+    width: 45%;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 1px solid #a8ebfb;
+}
 .img-row {
     display: flex;
     justify-content: center;
@@ -21,7 +29,7 @@
     max-width: 300px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border: 1px solid #888;
+    border: 1px solid lab(#a8ebfb);
 }
 
 .p3img2,
@@ -31,7 +39,7 @@
     max-width: 400px;
     height: auto;
     margin: 0 auto 20px;
-    border: 1px solid #888;
+    border: 1px solid #a8ebfb;
 }
 
 .bottom-button {
@@ -46,7 +54,7 @@
 }
 
 body {
-    background-color: #9da7b3;
+    background: linear-gradient(#a8ebfb, #c3eaf7);
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: scroll;
@@ -142,3 +150,34 @@ dt{
   padding-top: 20px;
   padding-bottom: 10px;
 }   
+
+.video_Chubu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 20px;
+}
+
+.video_Chubu .p1 {
+    width: 50%;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+#ChubuVideo {
+    width: 50%;
+    height: 350px;
+    display: block;
+}
+
+.audio_Chubu {
+    text-align: center;
+    margin: 25px;
+}
+
+.audio_Chubu audio {
+    width: 50%;
+}
