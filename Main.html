@@ -54,9 +54,7 @@
             </video>
          
         </div>
-        
 
-        
         <hr>
         <!-- 3 webpages and some info for them -->
         <div class="flexDiv">
@@ -171,6 +169,7 @@
         </div>
         
         <hr id="P3">
+        <!-- table element -->
         <h1>When to visit Japan</h1>
         <table>
             <tr>
@@ -233,23 +232,50 @@
                     <p>26428733@studentmail.ul.ie Sarah Walsh, main page editor</p>
                     <p>26424932@studentmail.ul.ie Cian Portley, page 3 editor  </p>
                     <p>26417693@studentmail.ul.ie Ash Ferreira, page 1 editor</p>
-                    <p>write credits here thx</p>
+                    <p>26442043@studentmai.ul.ie Jasper Morey, page 2 editor</p>
                 </div>
                 <div class="quarter">
-                    <h2>Get our Newsletter</h2>
-                    <p>Sign up</p>
-                    <p>sign up button/dropdown/form</p>
-                    <p>input email</p>
+                    <h2>Get our Newsletter!</h2>
+                    <p><strong>Sign up!</strong></p>
+                    <form>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value=""><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value=""><br><br>
+                        <label for="email">Email address:</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <input type="button" onclick="alert('Thank you for signing up!')" value="Submit">
+                    </form> 
                 </div>
                 <div class="quarter">
-                    <h2>Anyting We Can Improve?</h2>
-                    <p>Let us know!</p>
-                    <p>submission form</p>
+                    <h2>Time for a quick survey?</h2>
+                    <p>Help us and give us your response!</p>
+                    <p>Please select all that apply:</p>
+                    <div class="divForm">
+                        <form action="/action_page.php">
+                            <input type="checkbox">
+                            <label for="input1"> I will be travelling to Japan </label><br>
+                            <input type="checkbox">
+                            <label for="input2"> I am a citizen looking for new events</label><br>
+                            <input type="checkbox">
+                            <label for="input3"> I am just interested in events in Japan</label><br>
+                            <input type="checkbox">
+                            <label for="input4"> I am just here to give a grade</label><br>
+                            <input type="checkbox">
+                            <label for="input5"> I have recently visited Japan</label><br>
+                            <input type="checkbox">
+                            <label for="input6"> I am a student wanting to learn</label><br>
+                            <input type="button" onclick="alert('Thank you for your response!')" value="Submit">
+                        </form> 
+                    </div>
+
                 </div>
                 <div class="quarter">
                     <h2>References</h2>
-                    <p>another potential column idea, links and referneces for project</p>
-                    <p>work on this later :]</p>
+                    <p class="ref"><a href="https://www.ireland.com/en-us/">Ireland Travel Guide</a></p>
+                    <p class="ref"><a href="https://www.japan-guide.com/">Japann Guide</a></p>
+                    <p class="ref"><a href="https://en.wikipedia.org/wiki/Ch%C5%ABbu_region">Regions Wiki</a></p>
+                    <p class="ref"><a href="https://www.w3schools.com/html/">w3schools</a></p>
                 </div>
             </div>
         </div>

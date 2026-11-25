@@ -116,7 +116,6 @@ td{
   
 }
 
-
 /*japan map style */
 div.map {
   display: none;
@@ -125,4 +124,19 @@ div.map {
 }
 span:hover + div.map {
   display: block;
+}
+
+/* end of page  */
+form{
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+.ref{
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+.divForm{
+  background-color: #c8c8c8;
+  border: 2px solid #2B2D2E;
+  border-radius: 8px;
 }
