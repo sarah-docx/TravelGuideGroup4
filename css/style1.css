@@ -139,7 +139,9 @@ dt{
   border:hidden;
   border-collapse: collapse;
   padding: 10px;
+  background-color: #9da7b3;
 }
+
 
 video {
   width: 100%;
