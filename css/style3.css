@@ -209,3 +209,65 @@ table.hotel-table {
     font-size: 20px;
     margin: -2px 0;
 }
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 650px) {
+
+    /* Intro and video */
+    .video_Chubu {
+        flex-direction: column;
+    }
+
+    .video_Chubu .p1, #ChubuVideo {
+        width: 100%;
+    }
+
+    #ChubuVideo {
+        height: auto;
+    }
+
+    /* Attractions */
+    .Garden_text, .Fuji_text, .Town_text {
+        flex-direction: column;
+    }
+
+    .attraction-text {
+        width: 100%;
+    }
+
+    .Garden, .Fuji, .Town {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Hotel cards */
+    .hotel-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hotel-card {
+        width: 100%;
+    }
+
+    /* Food cards */
+    .food-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-card {
+        width: 100%;
+    }
+
+    /* Audio */
+    .audio_Chubu audio {
+        width: 100%;
+    }
+
+    /* Hotel table */
+    table.hotel-table {
+        width: 100%;
+        font-size: 12px;
+    }
+}
