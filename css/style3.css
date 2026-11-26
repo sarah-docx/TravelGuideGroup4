@@ -7,20 +7,17 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  width: 100%;
   padding-top: 54%; /* aspect ratio */
   color: white;
 }
 body {
     background: linear-gradient(#a8ebfb, #c3eaf7);
     background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: scroll;
     margin: 0;
     padding: 0;
 
 }
-h2 {
+h2, h3 {
     color: black;
     font-size: 30px;
     text-align: center;
@@ -28,9 +25,6 @@ h2 {
 }
 
 .p1 {
-    color: black;
-    font-size: 20px;
-    text-align: center;
     padding: 10px;
     margin: 20px;
 }
@@ -167,7 +161,6 @@ th, td {
 }
 
 table.hotel-table {
-    display: table;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -179,12 +172,6 @@ table.hotel-table {
 .hotel-table td {
     padding: 5px;
     border: 1px solid black;
-}
-h3 {
-    color: black;
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 15px;
 }
 
 .food-cards {
