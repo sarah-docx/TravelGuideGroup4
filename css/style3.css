@@ -7,8 +7,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  padding-top: 54%; /* aspect ratio */
-  color: white;
+  padding-top: 54%; 
 }
 body {
     background: linear-gradient(#a8ebfb, #c3eaf7);
@@ -37,15 +36,6 @@ h2, h3 {
     margin: 20px;
 }
 
-
-.banner-content {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 .nav {
   list-style-type: none;
   margin: 0;
@@ -68,11 +58,6 @@ h2, h3 {
 
 .nav li a:hover {
   background-color: #4F4944;
-}
-
-.section {
-  padding: 20px;
-  margin: 20px;
 }
 
 hr {
